@@ -1,0 +1,22 @@
+{
+    "requires": {
+        "[dev]": {
+            "db": {
+                "kind": "sqlite",
+                "credentials": {
+                    "url": "products.sqlite"
+                }
+            }
+        },
+        "[ps]": {
+            "kind": "postgres",
+            "credentials": {
+                "host": "",
+                "port": "",
+                "user": "",
+                "password": "",
+                "db": ""
+            }
+        }
+    }
+}
